@@ -1,8 +1,9 @@
 module com.example.vimpirelikegame {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
 
-    opens com.example.vimpirelikegame to javafx.fxml;
-    exports com.example.vimpirelikegame;
+    opens com.vampirelikegame to javafx.fxml;
+    exports com.vampirelikegame;
 }
